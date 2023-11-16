@@ -36,7 +36,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Integrantes Grupo
---RM551737 - Alexandre Portugal do Nascimento Teles (turma 1TDSPX) 
---RM98249 - Felipe Sieiro Paim dos Santos (turma 1TDSPX) 
---RM551643 - Jonathan Mateus Souza de Moraes (turma 1TDSPX) 
+--RM551737 - Alexandre Portugal do Nascimento Teles (1TDSPX) 
+--RM98249 - Felipe Sieiro Paim dos Santos (1TDSPX) 
+--RM551643 - Jonathan Mateus Souza de Moraes (1TDSPX) 
 --RM98499 - Tomaz de Oliveira Pecoraro (1TDSPM)
+--RM551005 - Ivan Rangel Pestana Marcolin (1TDSPF)
