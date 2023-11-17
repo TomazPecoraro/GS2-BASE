@@ -1,10 +1,10 @@
 import './globals.css'
-import '../pages/home/home'
+import Inicio from "@/pages/inicio/inicio"
 
 export default function Home() {
-    return (
-        <div>
-            <Home/>
-        </div>
-    )
+  return (
+    <div>
+      <Inicio/>
+    </div>
+  )
 }

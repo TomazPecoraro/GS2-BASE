@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Montserrat } from 'next/font/google'
-import Cabecalho from '@/components/Cabecalho/cabecalho'
+import Cabecalho from '@/components/cabecalho/cabecalho'
 import Rodape from '@/components/rodape/rodape'
 
 const monteserrat = Montserrat({ subsets: ['latin'] })
