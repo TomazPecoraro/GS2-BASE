@@ -1,0 +1,10 @@
+.bikecheckrodape {
+    margin: px;
+    padding: 0px;
+}
+
+.rodape {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: #00D047;
+    padding: 3px;
+}
