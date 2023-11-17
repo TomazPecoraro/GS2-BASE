@@ -1,0 +1,11 @@
+.membros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fundobranco {
+    color: #407DE6;
+    background-color: white;
+    padding: 1%;
+}

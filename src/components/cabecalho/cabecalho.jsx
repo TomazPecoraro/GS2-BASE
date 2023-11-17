@@ -11,13 +11,13 @@ export default function Cabecalho() {
             <Link href="/" className = {styles.link}>NOME</Link>
           </h1>
           <div className={styles.botao}>
-            <Link href="../../pages/doencas/doencaspage" className = {styles.link}>Doenças de Pele</Link>
+            <Link href="/doencas/doencaspage" className = {styles.link}>Doenças de Pele</Link>
           </div>
           <div className={styles.botao}>
             <Link href="../../pages/formulario/formulariopage" className = {styles.link}>Formulário</Link>
           </div>
           <div className={styles.botao}>
-            <Link href="../../pages/membros/membrospage" className = {styles.link}>Membros</Link>
+            <Link href="/membros/membrospage" className = {styles.link}>Membros</Link>
           </div>
           <div className={styles.login}>
             <Link href="../../pages/login/loginpage">

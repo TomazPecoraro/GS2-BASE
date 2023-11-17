@@ -24,6 +24,8 @@ export default function Inicio() {
                 <Image src="/02.png" width={324}height={310} className= {styles.imagem}/>
             </div>
         </section>
+        <div className={styles.quebra}></div>
+        <div></div>
     </main>
     )
 }
