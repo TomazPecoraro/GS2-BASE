@@ -1,5 +1,6 @@
 import Link from "next/link";
 import  styles from './cabecalho.module.css';
+import Image from "next/image";
 
 export default function Cabecalho() {
   return (
@@ -18,8 +19,10 @@ export default function Cabecalho() {
           <div className={styles.botao}>
             <Link href="../../pages/membros/membrospage" className = {styles.link}>Membros</Link>
           </div>
-          <div className={styles.botao}>
-            <Link href="../../pages/login/loginpage">Login</Link>
+          <div className={styles.login}>
+            <Link href="../../pages/login/loginpage">
+              <Image src="/01.png" width={54}height={50}/>
+            </Link>
           </div>
         </div>
       </nav>

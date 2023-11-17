@@ -4,11 +4,8 @@ export default function Rodape() {
     return (
         <footer className={styles.rodape}>
           <div>
-            <h2 class={styles.bikecheckrodape}>
-              NOME
-            </h2>
-            <p>&copy; Todos os direitos reservados - 2023</p>
+            <p>&copy; 2023 - NOME. Todos os direitos reservados</p>
           </div>
         </footer>
-    );
+    )
   }

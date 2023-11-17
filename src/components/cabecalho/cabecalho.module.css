@@ -3,10 +3,16 @@
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
-.cabecalho {
+.cabecalho  {
     display: flex;
     flex: 1;
     justify-content: space-between;   
+}
+
+.login {
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 75px;
 }
 
 .NOME {
@@ -19,6 +25,7 @@
 
 .botao{
     text-align: center;
+    align-items: center;
     font-size: 20px;
     padding-left: 3%;
     padding-right: 7%;
