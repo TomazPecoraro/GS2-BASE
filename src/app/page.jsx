@@ -1,5 +1,5 @@
 import './globals.css'
-import Inicio from "@/pages/inicio/inicio"
+import Inicio from "@/pages/inicio/page"
 
 export default function Home() {
   return (

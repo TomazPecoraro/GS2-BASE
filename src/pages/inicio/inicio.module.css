@@ -1,0 +1,87 @@
+.p {
+    color: white;
+    text-align: left;
+    margin: 70px;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bghome {
+    background-color: #383838;
+}
+
+.titulobemvindo {
+    color: white;
+    background-color:#009A35;
+    width: 450px;
+    text-align: left;
+    margin: 70px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.home1{
+    display: flex;
+}
+
+.imagem {
+    margin: 90px;
+}
+
+.quebra {
+    background-color: #D9D9D9;
+    color:#D9D9D9;
+    margin-top: 5px;
+}
+
+.comofunciona {
+    background-color: white;
+    color: #009A35;
+    width: 300px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.titulocomofunciona {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.topico1 {
+    background-color: #009A35;
+    color: white;
+    width: 225px;
+}
+
+.topico2 {
+    background-color: #009A35;
+    color: white;
+    width: 275px;
+}
+
+.topico3 {
+    background-color: #009A35;
+    color: white;
+    width: 325px;
+}
+
+.topico4 {
+    background-color: #009A35;
+    color: white;
+    width: 350px;
+}
+
+.descricaotopicos {
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.topicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
