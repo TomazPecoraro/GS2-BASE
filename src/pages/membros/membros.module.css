@@ -1,11 +1,16 @@
 .membros {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    background-color: #383838;
+    padding: 100px;
 }
 
-.fundobranco {
-    color: #407DE6;
-    background-color: white;
-    padding: 1%;
+.nome {
+    padding: 5%;
+}
+
+.membro {
+    color: white;
+    margin: 20px;
 }
