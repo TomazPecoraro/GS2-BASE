@@ -32,7 +32,7 @@ export default function Inicio() {
                     Como funciona?
                 </h1>
             </div>
-            <div>
+            <div className={styles.linha}>
                 <div className={styles.topicos}>
                     <h1 className={styles.topico1}>
                         1. Registro Fácil
@@ -49,6 +49,8 @@ export default function Inicio() {
                         Responda a algumas perguntas simples e forneça informações sobre seus sintomas.
                     </p>
                 </div>
+            </div>
+            <div className={styles.linha}>
                 <div className={styles.topicos}>
                     <h1 className={styles.topico3}>
                         3. Resultados Imediatos
