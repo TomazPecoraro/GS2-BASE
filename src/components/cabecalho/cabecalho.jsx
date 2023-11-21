@@ -14,13 +14,13 @@ export default function Cabecalho() {
             <Link href="/doencas/page" className = {styles.link}>Doenças de Pele</Link>
           </div>
           <div className={styles.botao}>
-            <Link href="../../pages/formulario/page" className = {styles.link}>Formulário</Link>
+            <Link href="/formulario/page" className = {styles.link}>Formulário</Link>
           </div>
           <div className={styles.botao}>
             <Link href="/membros/page" className = {styles.link}>Membros</Link>
           </div>
           <div className={styles.login}>
-            <Link href="../../pages/login/page">
+            <Link href="/login/page">
               <Image src="/01.png" width={54}height={50}/>
             </Link>
           </div>
