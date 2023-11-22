@@ -30,9 +30,15 @@
     margin: 90px;
 }
 
-.quebra {
+.quebraverde {
+    background-color: #00D047;
+    color: #00D047;
+    margin-top: 5px;
+}
+
+.quebrabranco{
     background-color: #D9D9D9;
-    color:#D9D9D9;
+    color:  #D9D9D9;
     margin-top: 5px;
 }
 

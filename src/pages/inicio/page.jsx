@@ -24,8 +24,10 @@ export default function Inicio() {
                 <Image src="/02.png" width={405}height={387} className= {styles.imagem}/>
             </div>
         </section>
-        <div className={styles.quebra}>---</div>
-        <div className={styles.quebra}>---</div>
+        <div className={styles.quebraverde}>---</div>
+        <div className={styles.quebrabranco}>---</div>
+        <div className={styles.quebraverde}>---</div>
+
         <section>
             <div className={styles.titulocomofunciona}>
                 <h1 className={styles.comofunciona}>

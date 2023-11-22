@@ -1,0 +1,10 @@
+.doencas {
+    background: #383838;
+    display: flex;
+    flex-direction: column;
+}
+
+.nome {
+    color: white;
+    background-color: #00D047;
+}

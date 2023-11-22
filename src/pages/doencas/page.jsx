@@ -1,6 +1,7 @@
 import '../../app/globals.css'
 import Header from '../../components/cabecalho/cabecalho';
 import Rodape from '../../components/rodape/rodape';
+import Doencas from '../../components/doencas/doencas'
 
 export default function DoencasPele() {
     return (
@@ -8,9 +9,9 @@ export default function DoencasPele() {
         <header>
             <Header/>
         </header>
-    <section>
-
-    </section>
+        <section>
+            <Doencas/>
+        </section>
         <footer>
             <Rodape/>
         </footer>

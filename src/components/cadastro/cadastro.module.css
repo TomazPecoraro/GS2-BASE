@@ -1,6 +1,6 @@
 .bg{
     background-color: #383838;
-    padding: 150px;
+    padding: 140px;
 }
 
 .login {
@@ -35,5 +35,5 @@
     font-weight: 800;
     display: flex;
     justify-content: right;
-    margin-right: 50px;
+    margin-right: 60px;
 }
