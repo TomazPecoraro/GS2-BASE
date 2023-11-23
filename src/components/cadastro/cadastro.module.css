@@ -1,12 +1,12 @@
 .bg{
     background-color: #383838;
-    padding: 140px;
+    padding: 115px;
 }
 
 .login {
     background-color: #D9D9D9;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 250px;
+    margin-left: 250px;
 }
 
 .titulologin {
@@ -37,3 +37,4 @@
     justify-content: right;
     margin-right: 60px;
 }
+

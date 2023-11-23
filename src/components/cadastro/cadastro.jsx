@@ -52,18 +52,24 @@ export default function Login() {
             <form onSubmit={handleSubmit}>
             <fieldset>
                 <div>
-                    <input className={styles.campos} type="email" name="email" id="idEmail" placeholder="Usuário" value={usuario.email} onChange={handleChange}/>
+                 <input className={styles.campos} type="nome" name="nome" id="idnome" placeholder="Nome" value={usuario.nome} onChange={handleChange}/>
+                  <input className={styles.campos} type="email" name="email" id="idEmail" placeholder="Usuário" value={usuario.email} onChange={handleChange}/>
                 </div>
                 <div>
                  <input className={styles.campos} type="password" name="senha" id="idSenha" placeholder="Senha" value={usuario.senha} onChange={handleChange}/>
+                 <input className={styles.campos} type="sexobiologico" name="sexobiologico" id="idsexobiologico" placeholder="Sexo Biologico" value={usuario.sexobiologico} onChange={handleChange}/>
                 </div>
+                <div>
+                 <input className={styles.campos} type="genero" name="genero" id="idgenero" placeholder="Gênero" value={usuario.genero} onChange={handleChange}/>
+                 <input className={styles.campos} type="datanascimento" name="datanascimento" id="iddatanascimento" placeholder="Data Nascimento" value={usuario.datanascimento} onChange={handleChange}/>
+                </div>
+              </fieldset>
                 <div>
                     <Link className={styles.linkcadastro} href='../login/page'>Já tenho Login</Link>
                 </div>
                 <div>
                     <button className={styles.botao}>Cadastrar</button>
                 </div>
-            </fieldset>
             </form>
         </div>
         </div>
