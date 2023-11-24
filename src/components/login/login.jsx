@@ -21,8 +21,8 @@ export default function Login() {
             let user;
 
             try {
-              const response = await fetch("http://localhost:3000/api/base/base-users",{
-                method:"POST",
+              const response = await fetch("http://localhost:8080/pele/login",{
+                method:"GET",
                 headers:{
                     'Content-Type': 'application/json'
                 },
@@ -33,9 +33,9 @@ export default function Login() {
                 const data = response.json();
 
                 if(data){
-                  alert("LOGIN REALIZADO COM SUCESSO!")
+                  alert("Login Realizado!")
                 }else{
-                  alert("SENHA E OU USUAÁRIOS INVÁLIDOS!")
+                  alert("Senha ou Usuário Inválido!")
                 }
 
               }
@@ -61,7 +61,7 @@ export default function Login() {
                     <Link className={styles.linkcadastro} href='../cadastro/page'>Quero me Cadastrar</Link>
                 </div>
                 <div>
-                    <button className={styles.botao}>Entrar</button>
+                    <button type="submit" className={styles.botao}>Entrar</button>
                 </div>
             </fieldset>
             </form>

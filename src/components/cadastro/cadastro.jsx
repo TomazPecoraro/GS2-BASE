@@ -6,8 +6,13 @@ export default function Login() {
 
         const [usuario, setUsuario] = useState({
           info: "cadastro",
+          nome: "",
           email: "",
-          senha: ""
+          senha: "",
+          sexo_biologico: "",
+          genero: "",
+          data_nascimento:""
+
         });
 
         const handleChange = (e) =>{
@@ -21,7 +26,7 @@ export default function Login() {
             let user;
 
             try {
-              const response = await fetch("http://localhost:3000/api/base/base-users",{
+              const response = await fetch("http://localhost:8080/pele/register",{
                 method:"POST",
                 headers:{
                     'Content-Type': 'application/json'
@@ -33,9 +38,9 @@ export default function Login() {
                 const data = response.json();
 
                 if(data){
-                  alert("LOGIN REALIZADO COM SUCESSO!")
+                  alert("Cadastro Realizado com sucesso!")
                 }else{
-                  alert("SENHA E OU USUAÁRIOS INVÁLIDOS!")
+                  alert("Dados Inválidos")
                 }
 
               }
@@ -57,18 +62,18 @@ export default function Login() {
                 </div>
                 <div>
                  <input className={styles.campos} type="password" name="senha" id="idSenha" placeholder="Senha" value={usuario.senha} onChange={handleChange}/>
-                 <input className={styles.campos} type="sexobiologico" name="sexobiologico" id="idsexobiologico" placeholder="Sexo Biologico" value={usuario.sexobiologico} onChange={handleChange}/>
+                 <input className={styles.campos} type="sexo_biologico" name="sexo_biologico" id="idsexo_biologico" placeholder="Sexo Biologico" value={usuario.sexobiologico} onChange={handleChange}/>
                 </div>
                 <div>
                  <input className={styles.campos} type="genero" name="genero" id="idgenero" placeholder="Gênero" value={usuario.genero} onChange={handleChange}/>
-                 <input className={styles.campos} type="datanascimento" name="datanascimento" id="iddatanascimento" placeholder="Data Nascimento" value={usuario.datanascimento} onChange={handleChange}/>
+                 <input className={styles.campos} type="data_nascimento" name="data_nascimento" id="iddata_nascimento" placeholder="Data Nascimento" value={usuario.datanascimento} onChange={handleChange}/>
                 </div>
               </fieldset>
                 <div>
                     <Link className={styles.linkcadastro} href='../login/page'>Já tenho Login</Link>
                 </div>
                 <div>
-                    <button className={styles.botao}>Cadastrar</button>
+                    <button type="submit" className={styles.botao}>Cadastrar</button>
                 </div>
             </form>
         </div>

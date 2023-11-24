@@ -1,3 +1,26 @@
-.forms {
-    background-color:aqua ;
+.bg {
+    background-color: #383838;
+    padding: 100px;
+}
+
+.forms{
+    font-weight: 500;
+    color: white; 
+    background-color: #D9D9D9;
+    width: 1100px;
+}
+
+
+.perguntas {
+    margin: 100px;
+}
+
+.titulo {
+    margin: 10px;
+    color: white;
+    background-color: #009A35
+}
+
+.campos {
+    margin: 10px;
 }
