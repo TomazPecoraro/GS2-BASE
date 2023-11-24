@@ -1,10 +1,12 @@
+'use client'
 import './globals.css'
-import Inicio from "@/pages/inicio/page"
+import React, { useState } from "react";
+import Login from "@/components/login/login"
 
 export default function Home() {
   return (
     <div>
-      <Inicio/>
+      <Login/>
     </div>
   )
 }
