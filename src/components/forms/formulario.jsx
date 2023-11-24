@@ -92,7 +92,7 @@ const Diagnostico = () => {
     <div className={styles.bg}>
       <div className={styles.forms}>
         <h1 className={styles.titulo}>Pré-Triagem Dermatológica</h1>
-        <p>Por favor, forneça informações detalhadas sobre seus sintomas:</p>
+        <h1 className={styles.subtitulo}>Por favor, forneça informações detalhadas sobre seus sintomas (0 a 10):</h1>
         <label className={styles.perguntas}>
           Intensidade do prurido (coceira) de 0 a 10:
           <input
@@ -103,134 +103,136 @@ const Diagnostico = () => {
           />
         </label>
         <br />
-        <label>
+        <label className={styles.perguntas}>
           Intensidade do eritema (vermelhidão) de 0 a 10:
-          <input
+          <input className={styles.campos}
             type="number"
             value={respostas.eritema}
             onChange={(e) => handleInputChange('eritema', e.target.value)}
           />
         </label>
         <br />
-        <label>
+        <label className={styles.perguntas}>
           Intensidade da presença de escamas de 0 a 10:
-          <input
+          <input className={styles.campos}
             type="number"
             value={respostas.escamas}
             onChange={(e) => handleInputChange('escamas', e.target.value)}
           />
         </label>
         <br />
-        <label>
-          Distribuição das lesões cutâneas (localizada, generalizada, etc.):
-          <input
-            type="text"
-            value={respostas.distribuicaoLesoes}
-            onChange={(e) => handleInputChange('distribuicaoLesoes', e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Evolução dos sintomas ao longo do tempo:
-          <input
-            value={respostas.evolucaoSintomas}
-            onChange={(e) => handleInputChange('evolucaoSintomas', e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Antecedentes familiares de condições dermatológicas:
-          <input
-            type="text"
-            value={respostas.antecedentesFamiliares}
-            onChange={(e) => handleInputChange('antecedentesFamiliares', e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Sensibilidade a determinados produtos ou substâncias:
-          <input
-            type="text"
-            value={respostas.sensibilidadeADeterminadosProdutos}
-            onChange={(e) => handleInputChange('sensibilidadeADeterminadosProdutos', e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Exposição recente ao sol ou a agentes irritantes:
-          <input
-            type="text"
-            value={respostas.exposicaoAoSol}
-            onChange={(e) => handleInputChange('exposicaoAoSol', e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
-          Outros sintomas relevantes (febre, mal-estar, etc.):
-          <input
-            type="text"
-            value={respostas.outrosSintomas}
-            onChange={(e) => handleInputChange('outrosSintomas', e.target.value)}
-          />
-        </label>
-        <br />
-        <label>
+        
+        <label className={styles.perguntas}>
           Intensidade da coceira intensa de 0 a 10:
-          <input
+          <input className={styles.campos}
             type="number"
             value={respostas.coceiraIntensa}
             onChange={(e) => handleInputChange('coceiraIntensa', e.target.value)}
           />
         </label>
         <br />
-        <label>
+        <label className={styles.perguntas}>
           Intensidade da irritação de 0 a 10:
-          <input
+          <input className={styles.campos}
             type="number"
             value={respostas.irritacao}
             onChange={(e) => handleInputChange('irritacao', e.target.value)}
           />
         </label>
         <br />
-        <label>
+        <label className={styles.perguntas}>
           Intensidade da dor local de 0 a 10:
-          <input
+          <input className={styles.campos}
             type="number"
             value={respostas.dorLocal}
             onChange={(e) => handleInputChange('dorLocal', e.target.value)}
           />
         </label>
         <br />
-        <label>
+        <label className={styles.perguntas}>
           Temperatura local de 0 a 10:
-          <input
+          <input className={styles.campos}
             type="number"
             value={respostas.temperaturaLocal}
             onChange={(e) => handleInputChange('temperaturaLocal', e.target.value)}
           />
         </label>
         <br />
-        <label>
+        <label className={styles.perguntas}>
           Suor excessivo de 0 a 10:
-          <input
+          <input className={styles.campos}
             type="number"
             value={respostas.suorExcessivo}
             onChange={(e) => handleInputChange('suorExcessivo', e.target.value)}
           />
         </label>
         <br />
-        <label>
+        <h1 className={styles.subtitulo}>Agora responda com texto:</h1>
+        <label className={styles.perguntas}>
+          Distribuição das lesões cutâneas (localizada, generalizada, etc.):
+          <input className={styles.campos}
+            type="text"
+            value={respostas.distribuicaoLesoes}
+            onChange={(e) => handleInputChange('distribuicaoLesoes', e.target.value)}
+          />
+        </label>
+        <br />
+        <label className={styles.perguntas}>
+          Evolução dos sintomas ao longo do tempo:
+          <input className={styles.campos}
+            value={respostas.evolucaoSintomas}
+            onChange={(e) => handleInputChange('evolucaoSintomas', e.target.value)}
+          />
+        </label>
+        <br />
+        <label className={styles.perguntas}>
+          Antecedentes familiares de condições dermatológicas:
+          <input className={styles.campos}
+            type="text"
+            value={respostas.antecedentesFamiliares}
+            onChange={(e) => handleInputChange('antecedentesFamiliares', e.target.value)}
+          />
+        </label>
+        <br />
+        <label className={styles.perguntas}>
+          Sensibilidade a determinados produtos ou substâncias:
+          <input className={styles.campos}
+            type="text"
+            value={respostas.sensibilidadeADeterminadosProdutos}
+            onChange={(e) => handleInputChange('sensibilidadeADeterminadosProdutos', e.target.value)}
+          />
+        </label>
+        <br />
+        <label className={styles.perguntas}>
+          Exposição recente ao sol ou a agentes irritantes:
+          <input className={styles.campos}
+            type="text"
+            value={respostas.exposicaoAoSol}
+            onChange={(e) => handleInputChange('exposicaoAoSol', e.target.value)}
+          />
+        </label>
+        <br />
+        <label className={styles.perguntas}>
+          Outros sintomas relevantes (febre, mal-estar, etc.):
+          <input className={styles.campos}
+            type="text"
+            value={respostas.outrosSintomas}
+            onChange={(e) => handleInputChange('outrosSintomas', e.target.value)}
+          />
+        </label>
+        <br />
+        <label className={styles.perguntas}>
           Histórico de viagens recentes para regiões tropicais:
-          <input
+          <input className={styles.campos}
             type="text"
             value={respostas.historicoViagens}
             onChange={(e) => handleInputChange('historicoViagens', e.target.value)}
           />
         </label>
         <br />
-        <label>
+        <label className={styles.perguntas}>
           Contato recente com animais:
-          <select
+          <select className={styles.select}
             value={respostas.contatoComAnimais}
             onChange={(e) => handleInputChange('contatoComAnimais', e.target.value)}
           >
@@ -240,10 +242,10 @@ const Diagnostico = () => {
           </select>
         </label>
         <br />
-        <button onClick={() => { realizarDiagnostico(); setDiagnostico(obterDiagnosticoDetalhado()); }}>Realizar Diagnóstico</button>
+        <button className={styles.botao} onClick={() => { realizarDiagnostico(); setDiagnostico(obterDiagnosticoDetalhado()); }}>Realizar Diagnóstico</button>
         <div>
-          <h2>Diagnóstico:</h2>
-          <p>{diagnostico}</p>
+          <h2 className={styles.titulo}>Diagnóstico:</h2>
+          <p className= {styles.diagnostico}>{diagnostico}</p>
         </div>
       </div>
     </div>
