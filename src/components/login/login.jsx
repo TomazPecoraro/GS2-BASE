@@ -32,7 +32,7 @@ export default function Login() {
               if(response.ok){
                 const data = response.json();
 
-                if(data){
+                if(data.status === 0){
                   alert("Login Realizado!")
                 }else{
                   alert("Senha ou Usuário Inválido!")

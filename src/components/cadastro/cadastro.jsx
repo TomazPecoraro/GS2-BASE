@@ -37,7 +37,7 @@ export default function Login() {
               if(response.ok){
                 const data = response.json();
 
-                if(data){
+                if(data.status === 0){
                   alert("Cadastro Realizado com sucesso!")
                 }else{
                   alert("Dados Inválidos")
