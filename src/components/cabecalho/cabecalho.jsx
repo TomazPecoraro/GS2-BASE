@@ -8,7 +8,7 @@ export default function Cabecalho() {
       <nav>
         <div className={styles.cabecalho}>
           <h1 className={styles.NOME}>
-            <Link href="/" className = {styles.link}>NOME</Link>
+            <Link href="/" className = {styles.link}>SKINSCAN</Link>
           </h1>
           <div className={styles.botao}>
             <Link href="/doencas/page" className = {styles.link}>Doenças de Pele</Link>

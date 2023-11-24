@@ -7,11 +7,11 @@ export default function Inicio() {
         <section className={styles.home1}>
             <div>
                 <h1 className= {styles.titulobemvindo}>
-                    Bem vindo ao Nome!
+                    Bem vindo ao SkinScan!
                 </h1>
                 <p className={styles.p}>
                 Descubra a revolução no cuidado com a
-                pele com o NOME, sua solução completa
+                pele com a SkinScan, sua solução completa
                 para triagem e diagnóstico simplificado de
                 problemas de pele. Sabemos que a saúde da
                 sua pele é fundamental para o seu bem-estar,
