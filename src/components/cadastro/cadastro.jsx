@@ -1,8 +1,12 @@
+"use client";
+import { useRouter } from 'next/navigation';
 import React, { useState } from "react";
 import styles from './cadastro.module.css'
 import Link from "next/link";
 
+
 export default function Login() {
+  const router = useRouter();
 
         const [usuario, setUsuario] = useState({
           info: "cadastro",
@@ -36,6 +40,7 @@ export default function Login() {
 
               if(response.ok){
                   alert("Cadastro Realizado com sucesso!")
+                  router.push('/');
                 }else{
                   alert("Dados Inválidos")
                 }
