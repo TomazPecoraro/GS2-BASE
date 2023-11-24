@@ -3,7 +3,8 @@ import Header from '../../components/cabecalho/cabecalho';
 import Rodape from '../../components/rodape/rodape';
 import Forms from '../../components/forms/formulario';
 
-export default function Login() {
+
+export default function Form() {
     return (
     <div>
         <header>

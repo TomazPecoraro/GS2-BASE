@@ -65,7 +65,7 @@ export default function Login() {
                 </div>
               </fieldset>
                 <div>
-                    <Link className={styles.linkcadastro} href='../login/page'>Já tenho Login</Link>
+                    <Link className={styles.linkcadastro} href='/'>Já tenho Login</Link>
                 </div>
                 <div>
                     <button type="submit" className={styles.botao}>Cadastrar</button>
