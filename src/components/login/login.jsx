@@ -21,8 +21,8 @@ export default function Login() {
             let user;
 
             try {
-              const response = await fetch("http://localhost:8080/pele/login",{
-                method:"GET",
+              const response = await fetch("http://127.0.0.1:8080/pele/login",{
+                method:"POST",
                 headers:{
                     'Content-Type': 'application/json'
                 },
@@ -30,15 +30,10 @@ export default function Login() {
               });
 
               if(response.ok){
-                const data = response.json();
-
-                if(data.status === 0){
                   alert("Login Realizado!")
                 }else{
                   alert("Senha ou Usuário Inválido!")
                 }
-
-              }
 
           }catch(error){
             console.error(error);
